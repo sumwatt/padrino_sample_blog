@@ -1,0 +1,9 @@
+---
+:orm: activerecord
+:test: rspec
+:mock: none
+:script: jquery
+:renderer: haml
+:stylesheet: scss
+:namespace: SampleBlog
+:migration_format: number
