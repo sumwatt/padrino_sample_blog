@@ -6,6 +6,14 @@ module SampleBlog
     register Padrino::Helpers
     enable :sessions
 
+    get '/' do
+      "Hello World!"
+    end
+
+    get :about, map: '/about_us' do
+      render :haml, "%p This is a sample blog!"
+    end
+
     ##
     # Caching support.
     #
